@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="bn" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1325"><meta name="description" content="বাংলাদেশের বিশ্ববিদ্যালয়ে ভর্তি ২০২৬–২৭: আবেদন ও পরীক্ষার আলাদা কাউন্টডাউন, ইউনিটের ফি এবং সূত্রসহ সময়সূচি।">
+<title>BD Admission • তোমার পরের পদক্ষেপ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/app.css">
+<script defer src="/data/admissions.js"></script><script defer src="/assets/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#details">তথ্যে যান</a>
+<div class="shell">
+<header class="masthead"><a class="brand" href="/" aria-label="BD Admission হোম"><span class="brand-symbol">ব</span><span>BD <b>Admission</b><small>তোমার পরের পদক্ষেপ</small></span></a><div class="top-actions"><span class="session">ভর্তি ২০২৬–২৭</span><button id="themeToggle" class="icon-button" aria-label="লাইট মোড চালু করুন">☀</button></div></header>
+<div class="intro"><div><span class="eyebrow">PLAN TODAY. BEGIN TOMORROW.</span><h1>স্বপ্নের ক্যাম্পাস,<br class="mobile-break"> আর কত দূর?</h1><p>আবেদন থেকে ভর্তি পরীক্ষা — প্রয়োজনীয় তথ্য এক জায়গায়।</p></div><div class="review-stamp"><span class="status-dot"></span><span>সর্বশেষ যাচাই<small>১৪ নভেম্বর ২০২৬ · বাংলাদেশ সময়</small></span></div></div>
+<nav class="toolbar" aria-label="বিশ্ববিদ্যালয় নির্বাচন"><label class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="বিশ্ববিদ্যালয় খুঁজুন…" aria-label="বিশ্ববিদ্যালয় খুঁজুন"></label><label class="select-wrap"><span class="sr-only">বিশ্ববিদ্যালয়</span><select id="uniSelect"></select></label><span id="resultCount" class="result-count" role="status"></span></nav>
+<div id="emptySearch" class="empty" hidden>এই নামে কোনো বিশ্ববিদ্যালয় পাওয়া যায়নি। অন্য নাম বা সংক্ষিপ্ত নাম লিখুন।</div>
+<main id="mainContent" class="dashboard">
+<aside class="summary">
+<section class="university-panel"><div class="campus" id="campus"></div><div class="panel-content"><div class="uni-top"><div class="logo-frame" id="uniLogo"></div><span id="sourceBadge" class="pill"></span></div><div class="eyebrow" id="uniCode"></div><h2 id="uniName"></h2><p class="panel-caption">তোমার প্রস্তুতির সময় এখনই</p><div class="divider"></div><label class="field-label" for="unitSelect">ইউনিট / পরীক্ষার বিভাগ</label><select id="unitSelect" class="hero-select"></select><div id="shiftWrap" hidden><label class="field-label" for="shiftSelect">প্রবেশপত্র অনুযায়ী শিফট</label><select id="shiftSelect" class="hero-select"></select></div><div class="clock-heading"><span>পরীক্ষার কাউন্টডাউন</span><span class="live-dot"></span></div><div id="examCountdown"></div><p id="examDate" class="hero-date"></p><button id="examWidget" class="widget-button" hidden>পরীক্ষা উইজেটে রাখুন ↗</button></div></section>
+<section class="application-panel"><div class="section-top"><h3>আবেদনের কাউন্টডাউন</h3><span id="applicationBadge" class="small-pill"></span></div><p id="applicationPhase" class="muted" style="margin-top:12px"></p><div id="applicationCountdown"></div><div class="application-dates" id="applicationDates"></div><div id="paymentInfo"></div><a id="applyLink" class="primary-link" target="_blank" rel="noopener noreferrer">অফিসিয়াল ভর্তি পোর্টাল <span>↗</span></a><button id="applicationWidget" class="widget-button" hidden>আবেদনের সময় উইজেটে রাখুন ↗</button><a id="installLink" class="text-link" hidden target="_blank" rel="noopener noreferrer">Android অ্যাপ ডাউনলোড ↗</a></section>
+</aside>
+<section id="details" class="details" tabindex="-1"><div class="section-top"><div><span class="eyebrow">YOUR ADMISSION GUIDE</span><h2>এক নজরে প্রয়োজনীয় তথ্য</h2></div><span id="unitCount" class="small-pill"></span></div><div id="notice" class="notice"></div><div id="selectedDetail" class="selected-detail"></div><div class="section-top units-heading"><h3>সকল ইউনিটের সময়সূচি</h3><span class="muted">ইউনিট বেছে দেখুন</span></div><div id="unitsGrid" class="units-grid"></div><details class="sources" open><summary>তথ্যের সূত্র ও যাচাই</summary><div id="sources"></div><p>এটি স্বয়ংক্রিয় লাইভ ফিড নয়। আবেদন বা পরীক্ষার আগে সর্বশেষ অফিসিয়াল বিজ্ঞপ্তি ও নিজের প্রবেশপত্র মিলিয়ে নিন। অজানা ফি/সময় অনুমান করে বসানো হয়নি।</p></details></section>
+</main>
+<footer><span>সঠিক তথ্য। সময়মতো প্রস্তুতি।</span><a href="https://linkedin.com/in/RahatAhmedX" target="_blank" rel="noopener noreferrer">Developed by <strong>Rahat</strong> ↗</a></footer>
+</div><div id="toast" role="status" class="toast" hidden></div><noscript>ভর্তি তথ্য ও কাউন্টডাউন দেখতে JavaScript চালু করুন।</noscript>
+</body></html>
