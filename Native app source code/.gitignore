@@ -1,7 +1,0 @@
-**/build/
-**/bin/
-**/gen/
-.gradle/
-local.properties
-*.apk
-*.keystore
